@@ -1,0 +1,41 @@
+/* check number is even or odd*/
+
+#include <stdio.h>
+
+int main()
+
+{ 
+    int x;
+    printf("ENTER NUMBER");
+    scanf("%d",&x);
+    
+    if 
+    (x%2==0)
+    printf("EVEN NUMBER");
+    else
+    printf("ODD NUMBER");
+    
+}
+
+
+
+/* check number odd or even without using % operator*/
+
+#include <stdio.h>
+
+int main ()
+{
+int x;
+
+printf("ENTER NUMBER");
+scanf("%d",&x);
+
+if (x&1)
+    printf("ODD NUMBER");
+    
+    else
+    printf("EVEN NUMBER");
+    
+    
+    
+}
