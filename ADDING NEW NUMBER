@@ -1,0 +1,23 @@
+# c-program-
+
+
+/* ADDDING TWO NUMEBERS*/
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    
+    printf("ENTRE FIRST NUMBER");
+    scanf("%d/n",&a);
+    
+    printf("ENTRE SECOND NUMBER");
+    scanf("%d",&b);
+    
+    c=a+b;
+    
+    printf("SUM OF NUMEBERS %d",c);
+    
+    return 0;
+}
